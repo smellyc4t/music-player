@@ -195,10 +195,10 @@ h3{
     }
 
     .player-img {
-        width: 150px; /* Adjusted width */
-        height: 150px; /* Adjusted height */
+        width: 200px; /* Adjusted width */
+        height: 200px; /* Adjusted height */
         position: relative;
-        top: -25px; /* Adjusted position */
+        top: -30px; /* Adjusted position */
         left: 0;
     }
 
