@@ -144,7 +144,11 @@ h3{
 @media only screen and (max-width: 375px){
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
-    html, body {
+    html {
+        box-sizing: border-box;
+    }
+
+    body {
         margin: 0;
         font-family: 'Ubuntu', sans-serif;
         font-size: 12px;
@@ -173,13 +177,14 @@ h3{
         min-width: 50%;
         min-height: 50%;
         filter: blur(15px);
+        -webkit-filter: blur(30px);
         transform: scale(1.1);
     }
 
     .container {
         background-color: #e7e7e7;
-        height: auto;
-        width: 100%;
+        height: auto; /* Adjusted height */
+        width: 100%; /* Adjusted width */
         border-radius: 20px;
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
         transition: all 0.5s ease;
@@ -190,10 +195,11 @@ h3{
     }
 
     .player-img {
-        width: 150px;
-        height: 150px;
+        width: 150px; /* Adjusted width */
+        height: 150px; /* Adjusted height */
         position: relative;
-        top: -25px;
+        top: -25px; /* Adjusted position */
+        left: 0;
     }
 
     .player-img img {
@@ -209,8 +215,15 @@ h3{
         box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.8);
     }
 
-    .h2, .h3 {
-        font-size: 16px;
+    .h2 {
+        font-size: 20px; /* Adjusted font size */
+        text-align: center;
+        font-weight: 500;
+        margin: 10px 0 0;
+    }
+
+    .h3 {
+        font-size: 16px; /* Adjusted font size */
         text-align: center;
         font-weight: 500;
         margin: 10px 0 0;
@@ -220,7 +233,7 @@ h3{
         background-color: #fff;
         border-radius: 5px;
         cursor: pointer;
-        margin: 20px 10px 15px;
+        margin: 20px 10px 15px; /* Adjusted margins */
         height: 6px;
         width: 90%;
     }
@@ -235,21 +248,22 @@ h3{
 
     .music-duration {
         position: relative;
-        top: -20px;
+        top: -20px; /* Adjusted position */
         display: flex;
         justify-content: space-between;
     }
 
     .player-controls {
         position: relative;
-        top: -10px;
-        width: 100%;
+        top: -10px; /* Adjusted position */
+        left: 0; /* Adjusted position */
+        width: 100%; /* Adjusted width */
     }
 
     .fa-solid {
-        font-size: 24px;
+        font-size: 24px; /* Adjusted font size */
         color: #666;
-        margin-right: 20px;
+        margin-right: 20px; /* Adjusted margin */
         cursor: pointer;
         user-select: none;
         transition: all 0.3s ease;
@@ -260,7 +274,7 @@ h3{
     }
 
     .play-button {
-        font-size: 32px;
+        font-size: 32px; /* Adjusted font size */
         position: relative;
         top: 3px;
     }
