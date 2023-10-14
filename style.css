@@ -195,10 +195,10 @@ h3{
     }
 
     .player-img {
-        width: 200px; /* Adjusted width */
-        height: 200px; /* Adjusted height */
+        width: 250px; /* Adjusted width */
+        height: 250px; /* Adjusted height */
         position: relative;
-        top: -30px; /* Adjusted position */
+        top: -50px; /* Adjusted position */
         left: 0;
     }
 
@@ -216,16 +216,16 @@ h3{
     }
 
     .h2 {
-        font-size: 20px; /* Adjusted font size */
+        font-size: 10px; /* Adjusted font size */
         text-align: center;
         font-weight: 500;
         margin: 10px 0 0;
     }
 
     .h3 {
-        font-size: 16px; /* Adjusted font size */
+        font-size: 8px; /* Adjusted font size */
         text-align: center;
-        font-weight: 500;
+        font-weight: 300;
         margin: 10px 0 0;
     }
 
